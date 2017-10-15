@@ -23,31 +23,31 @@ define({
         viewer: {
             operationalLayers: {
                 cities: 'World Cities',
-                damageAssessment: 'Damage Assessment',
-                louisvillePubSafety: 'Louisville Public Safety',
-                restaurants: 'Restaurants',
-                sf311Incidents: 'San Francisco 311 Incidents'
+                damageAssessment:'Function Zones',
+                louisvillePubSafety: 'Sanhuanpao Boundary',
+                restaurants: 'Sanhuanpao NNR',
+                sf311Incidents: 'Heilongjiang Wetlands Boundary'
             },
             titles: {
-                header: 'Configurable Map Viewer',
-                pageTitle: 'Configurable Map Viewer',
-                subHeader: 'make it your own'
+                header: '保护区GIS系统',
+                pageTitle: 'NNR GIS Demo',
+                subHeader: '基本功能演示系统'
             },
             widgets: {
-                bookmarks: 'Bookmarks',
-                directions: 'Directions',
-                draw: 'Draw',
-                editor: 'Editor',
-                find: 'Find',
-                help: 'Help',
-                identify: 'Identify',
-                measure: 'Measurement',
-                layerControl: 'Layers',
-                legend: 'Legend',
+                bookmarks: '书签',
+                directions: '方向',
+                draw: '绘制',
+                editor: '编辑',
+                find: '寻找',
+                help: '帮助',
+                identify: '标识',
+                measure: '量测',
+                layerControl: '图层控制',
+                legend: '图例',
                 locale: 'Locale',
-                print: 'Print',
-                search: 'Search',
-                streetview: 'Google Street View'
+                print: '制图打印',
+                search: '搜索',
+                streetview: 'Google街道图'
             }
         }
     },
@@ -55,4 +55,5 @@ define({
     'fr': true,
     'pt-br': true,
     'pt-pt': true
+	
 });
